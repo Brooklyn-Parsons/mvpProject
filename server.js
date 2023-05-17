@@ -1,10 +1,12 @@
 import express from "express";
 import pg from "pg";
+import dotenv from "dotenv";
+dotenv.config();
 
 const app = express();
 
 const db = new pg.Pool({
-  connectionString: "postgres://localhost:3000/shrek",
+  connectionString: process.env.DATABASE_URL,
 });
 
 app.use(express.static("public"));
