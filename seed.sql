@@ -11,7 +11,7 @@ INSERT INTO characters(name, age, quote) VALUES ('Magic Mirror', 86, 'But don''t
 INSERT INTO characters(name, age, quote) VALUES ('Geppetto', 40, 'Now close your eyes and go to sleep.');
 INSERT INTO characters(name, age, quote) VALUES ('Thelonious', 40, '#3! Pick #3 my lord!');
 INSERT INTO characters(name, age, quote) VALUES ('Duloc Mascot', NULL, 'AHHHHHHHH!');
-INSERT INTO characters(name, age, quote) VALUES ('Big Bad Wolf', 90, 'You mean those stories that say I''m a big “bad” wolf?');
+INSERT INTO characters(name, age, quote) VALUES ('Big Bad Wolf', 90, 'You mean those stories that say I''m a big "bad" wolf?');
 INSERT INTO characters(name, age, quote) VALUES ('Dragon', NULL, 'RAWR!');
 INSERT INTO characters(name, age, quote) VALUES ('Old Woman', NULL, 'He''s just a little nervous. He''s really quite the chatterbox. Talk, you boneheaded dolt...');
 INSERT INTO characters(name, age, quote) VALUES ('Captian of the Gaurds', NULL, 'Get her out of my sight!');

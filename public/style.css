@@ -1,0 +1,21 @@
+#smashMouth {
+    text-align: center;
+    font-size: xx-large;
+    color: bisque;
+}
+
+.btn {
+    margin: auto;
+    background-color: rgb(114, 57, 26);
+    color: bisque;
+}
+
+.card {
+    margin: auto;
+    background-color: rgb(114, 57, 26);
+    color: bisque;
+}
+
+body {
+    background-image: url("images.jpg");
+  }
