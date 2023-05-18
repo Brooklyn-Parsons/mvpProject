@@ -5,15 +5,16 @@
 }
 
 .btn {
-    margin: auto;
-    background-color: rgb(114, 57, 26);
-    color: bisque;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+    color: rgb(114, 57, 26);
 }
 
 .card {
     margin: auto;
-    background-color: rgb(114, 57, 26);
-    color: bisque;
+    background-color: bisque;
+    color: rgb(114, 57, 26);
 }
 
 body {
