@@ -2,7 +2,7 @@ let rsc = document.querySelector('.btn');
 //console.log(rsc);
 let card = document.querySelector(".card");
 
-fetch("http://127.0.0.1:4000/shrek").then((res) => 
+fetch("/shrek").then((res) => 
 res.json()
 ).then((characters) => {
     console.log(characters);
@@ -11,7 +11,7 @@ res.json()
 rsc.onclick = () => {
     card.innerHTML = "";
     //console.log("hello");
-    fetch("http://localhost:4000/shrek/random").then((res) =>
+    fetch("/shrek/random").then((res) =>
     res.json() 
     ).then((characters) => {
         card.append(randomCharacter(characters));
